@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+.container-design {
+    width: 80%;
+    margin-top: 2%;
+    font-family: sans-serif;
+    background-color: #E9ECEF;
+    letter-spacing: 1px;
+}
+
+.container-design h2 {
+
+    background: #0062cc;
+    color: #fff;
+    width: 200px;
+    font-size: 24px;
+    padding: 5px;
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+.container-design h2::after {
+
+    content: '';
+    border-top: 40px solid #0062cc;
+    border-right: 40px solid transparent;
+    position: relative;
+    left: 48px;
+    top: 34px
+}
+
+
+
+.row {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2px;
+}
+
+img {
+    /* max-width: 400px; */
+    height: 300px;
+    width: 100%;
+}
+
+.product-bottom .fa {
+    color: #28a745;
+    font-size: 10px;
+}
+
+
+.product-bottom h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-bottom h5 {
+    font-size: 15px;
+    font-weight: 1opx;
+}
+
+
+.overlay {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+
+.product-top:hover .overlay {
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+.overlay .fa {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+
+.overlay .btn-secondary {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}

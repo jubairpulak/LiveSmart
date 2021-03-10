@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+.main-name-style {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121
+}
+
+.main-brand-style {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #757575
+}
+
+.cart-money-style {
+    color: #F57224;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.cart-money-desgin {
+    margin-left: 90px;
+}
+
+.cart-money-desgin-right {
+    margin-left: 90px;
+}
+
+.right-name-style {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 16px;
+    color: #212121
+}

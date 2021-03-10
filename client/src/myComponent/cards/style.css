@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap');
+
+.product-bottom-2 {
+    word-spacing: 2px;
+    line-height: 10px;
+}
+
+.titl-style {
+    font-family: 'Brygada 1918', serif;
+    font-style: inherit;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 18px;
+    color: #212121;
+}
+
+.money-style {
+    color: #F57224;
+    /* line-height: 20px; */
+    font-size: 15px;
+
+}

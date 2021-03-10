@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+.navb {
+    height: auto;
+    /* background-color: rgba(0, 0, 0, 8); */
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    text-align: justify;
+    text-transform: capitalize;
+    position: sticky;
+    top: 0;
+    /* /* z-index: 999; */
+}
+
+.logo-style {
+    font-family: 'Potta One', cursive;
+    font-size: 1.9rem;
+    font-weight: 500;
+    background: linear-gradient(to bottom, #f69ec4 0%, #32557f 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-shadow: 2px 2px 5px red; */
+
+    /* color: whitesmoke; */
+}
+
+.sub-nav-style {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0rem;
+    font-weight: bold;
+    /* color: whitesmoke; */
+}
+
+
+
+.nav-bg-design {
+    padding-left: 50px;
+    padding-right: 50px;
+}

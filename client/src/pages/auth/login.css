@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+.login-text-desgin {
+    font-family: 'Noto Serif', serif;
+    font-style: 600;
+    font-weight: 600;
+    font-size: 45px;
+    text-transform: uppercase;
+    background: #FF0000;
+    background: -webkit-linear-gradient(to left, #FF0000 0%, #000000 100%);
+    background: -moz-linear-gradient(to left, #FF0000 0%, #000000 100%);
+    background: linear-gradient(to left, #FF0000 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}

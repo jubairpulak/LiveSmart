@@ -1,0 +1,90 @@
+body {
+    background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
+}
+
+.card {
+    width: auto;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important
+}
+
+.card-body {
+    padding: 2rem 0 !important;
+}
+
+.card-text {
+    font-size: .9rem;
+    padding: 0.4rem 1.9rem;
+}
+
+.container-fluid.row {
+    padding-top: 6rem
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.card-img-top {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.8);
+}
+
+.btn-view-top {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-cart-top {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-view-top span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-view-top span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn-view-top:hover span {
+    padding-right: 25px;
+
+}
+
+.btn-view-top:hover span:after {
+    opacity: 1;
+    right: 0;
+
+}

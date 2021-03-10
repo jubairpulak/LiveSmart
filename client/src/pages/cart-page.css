@@ -1,0 +1,30 @@
+.full-body {
+    background-color: #F4F4F4;
+}
+
+.jum-style {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* //cart_css */
+.left-design {
+    background: #FFFFFF;
+    margin-top: 75px;
+    padding-right: 40px;
+}
+
+.from-design {
+    border-bottom: 2px solid;
+    border-bottom-color: linear-gradient(to right, red, purple);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 30px;
+}
+
+.from-design:focus {
+    border-bottom-color: linear-gradient(to right, red, purple)
+}
